@@ -5,10 +5,12 @@ import Layout from "./components/Layout";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Header from "./components/Header";
 
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Layout />}></Route>
         <Route index element={<Home />}></Route>
@@ -18,7 +20,5 @@ function App() {
     </BrowserRouter>
   );
 }
-
-pages 
 
 export default App;
