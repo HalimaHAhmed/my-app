@@ -9,7 +9,6 @@ import Contact from "./Pages/Contact";
 function App() {
   return (
     <BrowserRouter>
-      {/* this page will be like menu pages  */}
       <Routes>
         <Route path="/" element={<Layout />}></Route>
         <Route index element={<Home />}></Route>
